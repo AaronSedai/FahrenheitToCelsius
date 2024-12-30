@@ -1,0 +1,11 @@
+# write a program that asks the user to input a temperature in Fahrenheit. Convert it to Celsius with
+# the formula C = (F - 32) * 5/9. Display the results in Celsius.
+
+def FarToCel():
+    x = int(input("Enter a temperature in degrees Fahrenheit: "))
+    convert = (x - 32) * 5/9
+
+    print(x, "degrees Fahrenheit is", "{0:.2f}".format(convert), "degrees Celsius.")
+
+  // call the function
+FarToCel()
